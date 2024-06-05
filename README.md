@@ -105,3 +105,61 @@ plt.show()
 
 ## Conclusion
 The Bat Population Decline.ipynb notebook demonstrates the process of building a predictive model for WNS in bat populations using a combination of data preprocessing, NLP techniques, and neural network modeling.
+
+
+
+
+
+# README for Random_Forest_Model.ipynb Notebook
+
+This notebook explores the same bat population decline issue as above, but uses non-NLP techniques as an approach.
+
+## Setup Instructions
+
+### Running the Notebook
+
+To run this notebook, follow these steps:
+
+1. **Open in Google Colab**: Click on the "Open in Colab" badge.
+2. **Mount Google Drive**: When prompted, mount your Google Drive to access the dataset and save any outputs.
+3. **Install Required Packages**: If necessary, install scikit-learn by running `pip install -U scikit-learn`.
+4. **Run All Cells**: Execute all cells in the notebook sequentially.
+
+### Requirements
+
+- Python 3.x
+- Jupyter Notebook (or Google Colab)
+- Libraries: numpy, pandas, matplotlib, seaborn, scikit-learn
+
+## Notebook Contents
+
+### Overview
+
+This notebook analyzes fungal CFU data collected over multiple sample collection dates.
+
+### Data Loading and Preprocessing
+
+- Loads data from `one_hot_model_data_without_county_and_state.csv`.
+- Preprocesses the data by converting date columns to datetime objects and handling missing values in CFU counts.
+
+### Exploratory Data Analysis (EDA)
+
+- Visualizes the distribution of CFU counts.
+- Explores correlations between CFU counts and other features.
+
+### Modeling
+
+- **Model Selection**: Uses various regression models such as Random Forest Regressor, Gradient Boosting Regressor, and Stacking Regressor.
+- **Evaluation Metrics**: Evaluates models using Mean Squared Error (MSE) and R-squared (R2) score.
+
+### Results
+
+- Compares model performance using accuracy scores and visualizes prediction errors.
+
+### Conclusion
+
+Summarizes findings and suggests potential next steps for improving model performance.
+
+## Conclusion
+
+The Random Forest notebook provides a comprehensive analysis of fungal CFU prediction using machine learning techniques. For detailed insights and results, please refer to the notebook and its outputs.
