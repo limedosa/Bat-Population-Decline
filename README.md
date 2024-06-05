@@ -149,7 +149,7 @@ This notebook analyzes fungal CFU data collected over multiple sample collection
 
 ### Modeling
 
-- **Model Selection**: Uses various regression models such as Random Forest Regressor, Gradient Boosting Regressor, and Stacking Regressor.
+- **Model Selection**: Uses various regression models such as Random Forest Regressor.
 - **Evaluation Metrics**: Evaluates models using Mean Squared Error (MSE) and R-squared (R2) score.
 
 ### Results
